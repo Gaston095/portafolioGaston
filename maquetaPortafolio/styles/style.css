@@ -7,6 +7,7 @@
 
 :root {
   --color-principal: #29DE92;
+  --color-secundario: #02734A;
 }
 
 
@@ -296,14 +297,28 @@
 		border-bottom: 2px solid var(--color-principal);
 	}
 
-	.habilidades__texto {
-		padding: 8px;
-		text-align: center;
-		width: 70%;
-		margin-top: 22px;
-		color: #777;
-		font-size: 20px;
+
+	.habilidadesContenedor {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		color: var(--color-secundario);		
 	}
+
+		.habilidadesContenedor__skill {
+			width: 100px;
+			height: 100px;
+			margin: 15px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			font-size: 20px;
+		}
+
+			.habilidadesContenedor__skill i {
+				font-size: 45px;
+			}
 
 
 /*Proyectos*/
@@ -320,14 +335,23 @@
 		border-bottom: 2px solid var(--color-principal);
 	}
 
-	.proyectos__texto {
-		padding: 8px;
-		text-align: center;
-		width: 70%;
-		margin-top: 22px;
-		color: #777;
-		font-size: 20px;
+
+	.proyectos__contenedor {
+		width: 100%;
+		background-color: #777;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 30px;
 	}
+
+			.proyectos__contenedor-div{
+				height: 250px;
+				width: 150px;
+				background-color: #29DE92;
+				margin: 0px 20px;
+			}
+
 
 
 
