@@ -1,0 +1,27 @@
+.header__menu {
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+
+    .header__menu-item {
+        display: flex;
+        list-style: none;
+        font-weight: bold;
+    }
+
+        .menu__item-li {
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .menu__item-a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .menu__item-a:hover{
+            color: var(--color-principal);
+            border-bottom: 1px solid var(--color-principal);
+            cursor: pointer;
+        }

@@ -1,0 +1,16 @@
+.header__login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .header__login:hover {
+        color: var(--color-principal);
+    }
+
+    .header__login-i {
+        font-size: 25px;
+        margin: 0px 8px;
+        cursor: pointer;
+
+    }
